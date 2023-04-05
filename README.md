@@ -1,7 +1,7 @@
 # Brain-Fit
 
 <p align="center">
-<img src="Brain%20Fit%20App\Screenshot.png" alt="Screenshot" class="center">
+<img src="Brain%20Fit%20App\Screenshot.png" alt="Screenshot" class="center" height="480">
 </p>
 
 > The Questions Server is currently not working due to Version conflicts. Resolving these is a current WIP. Once the Server is functioning again, I will post a full guide on how to build/use the app.
