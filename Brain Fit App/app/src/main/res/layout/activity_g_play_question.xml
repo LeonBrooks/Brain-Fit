@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActGPlayQuestion">
+
+    <TextView
+        android:id="@+id/text_agpq_question"
+        android:layout_width="369dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="-130dp"
+        android:lineSpacingExtra="24sp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_agpq_Answer1"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/text_agpq_question"
+        android:layout_alignStart="@+id/text_agpq_question"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_agpq_Answer2"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/text_agpq_question"
+        android:layout_alignEnd="@+id/text_agpq_question"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-10dp" />
+
+    <Button
+        android:id="@+id/button_agpq_Answer3"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button_agpq_Answer1"
+        android:layout_alignStart="@+id/button_agpq_Answer1"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/button_agpq_Answer4"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button_agpq_Answer2"
+        android:layout_alignEnd="@+id/button_agpq_Answer2"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp" />
+
+    <Button
+        android:id="@+id/button_agpq_Answer5"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button_agpq_Answer3"
+        android:layout_alignStart="@+id/button_agpq_Answer3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/button_agpq_Answer6"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button_agpq_Answer4"
+        android:layout_alignEnd="@+id/button_agpq_Answer4"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:visibility="visible" />
+</RelativeLayout>

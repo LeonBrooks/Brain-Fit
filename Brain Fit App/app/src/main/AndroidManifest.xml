@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.groupSeventeen">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ActGEndForward" />
+        <activity android:name=".ActGEndNewGame" />
+        <activity android:name=".ActGEndResult" />
+
+        <activity android:name=".ActGPlayAnswer" />
+
+        <activity android:name=".ActGPlayForward" />
+        <activity android:name=".ActGPlayQuestion" />
+        <activity android:name=".ActGPlayWait" />
+
+        <activity android:name=".ActMAchievement" />
+        <activity android:name=".ActMJoinTeam" />
+        <activity android:name=".ActMLogin" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActMProfile" />
+        <activity android:name=".ActMRegister" />
+        <activity android:name=".ActMMatchSearch" />
+        <activity android:name=".ActMStatistic" />
+        <activity android:name=".ActMGroupStatistic"/>
+        <activity android:name=".ActMTeamHQ" />
+
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MainActivity"/>
+    </application>
+
+</manifest>

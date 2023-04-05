@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActMLogin">
+
+    <TextView
+        android:id="@+id/text_aml_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="RUN 'N QUIZZ"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/textInput_aml_Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textInput_aml_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_aml_Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="223dp"
+        android:ems="10"
+        android:hint="Your Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/text_amj_Title"
+        app:layout_constraintTop_toBottomOf="@+id/text_amj_Title" />
+
+    <EditText
+        android:id="@+id/textInput_aml_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInput_aml_Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/textInput_aml_Username"
+        app:layout_constraintTop_toBottomOf="@+id/textInput_aml_Username" />
+
+    <Button
+        android:id="@+id/button_aml_Login"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInput_aml_Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="LogIn"
+        app:layout_constraintEnd_toEndOf="@+id/textInput_aml_Password"
+        app:layout_constraintTop_toBottomOf="@+id/textInput_aml_Password" />
+
+    <ImageView
+        android:id="@+id/image_aml_Login"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/text_aml_Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/runquizzimage" />
+
+    <TextView
+        android:id="@+id/text_aml_Register"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_aml_Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Register"
+        android:textColor="@color/linkBlue" />
+
+</RelativeLayout>

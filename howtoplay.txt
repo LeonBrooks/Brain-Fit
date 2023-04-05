@@ -1,0 +1,24 @@
+How to Play:
+Join a team.
+Train your body and your brain.
+Match with people nearby.
+Run faster for a smaller selection of answers.
+Know your teammates well to send them the questions with their best cathegory knowledge.
+In each set of 5 questions you have to send 2 to your teammates and answer 3 on your own.
+
+
+Points:
+r-right, w-wrong, s-sent on
+Points |   You   | Opponent
+  4P        r	      w
+  2P        s        s/r
+  2P	    r	     r/s
+  2P	    s         w
+  0P	    s         r
+  0P	    w       r/w/s
+
+
+Choose your team wisely! You have to rely on your teammates and their knowledge. You will send them the questions to categories you aren't fit enough to answer.
+
+
+BrainFit is a game in which you do something for your mind and body. While you are running you'll get some questions to answer. The faster you are the fewer options you will get to answer. But you are not only playing against reallife opponents, you are also in a team. This team wil be like a family for you. So choose wisely:

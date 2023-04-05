@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActGEndForward">
+
+    <TextView
+        android:id="@+id/text_agef_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Forward Questions"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/text_agef_Help"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_agef_Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Help?"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_agef_UserQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_agef_Submit"
+        android:layout_below="@+id/text_agef_Help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:id="@+id/sv_agef_ScrollForwardUser"
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_agef_teamList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/sv_agef_ScrollForwardQuestion"
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_agef_questionList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_agef_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Submit" />
+
+</RelativeLayout>

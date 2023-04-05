@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActMAchievement">
+
+    <TextView
+        android:id="@+id/text_ama_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Tutorial"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button_ama_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="back" />
+
+    <ScrollView
+        android:id="@+id/sv_ama_ScrollAchievement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_ama_back"
+        android:layout_below="@+id/text_ama_Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:id="@+id/ll_ama_achievementlist"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_ama_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="How to Play:\nJoin a team. \nTrain your body and your brain. \nMatch with people nearby.\nRun faster for a smaller selection of answers. \nKnow your teammates well to send them the questions with their best cathegory knowledge.\nIn each set of 5 questions you have to send 2 to your teammates and answer 3 on your own.\n\nPoints:\n r-right, w-wrong, s-sent on\n Points |   You   | Opponent\n   4P             r	            w\n   2P             s           s/r\n   2P	            r	           r/s\n   2P	            s            w\n   0P	            s             r\n   0P	            w         r/w/s"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActMTeamHQ">
+
+    <Button
+        android:id="@+id/button_amt_Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/text_amt_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Team HQ"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_amt_Teamscore"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Team Score: placeholder_int"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/sv_amt_ScrollProfiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_amt_buttons"
+        android:layout_below="@+id/text_amt_Teamscore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:id="@+id/ll_amt_teamlist"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_amt_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_amt_Achievement"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Tutorial" />
+
+        <Button
+            android:id="@+id/button_amt_Search"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="0dp"
+            android:layout_centerHorizontal="true"
+            android:text="Search Game" />
+
+        <Button
+            android:id="@+id/button_amt_Statistics"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Global Rank" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_amt_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_amt_Title"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="TextView" />
+
+</RelativeLayout>
