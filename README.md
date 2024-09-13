@@ -25,7 +25,7 @@ Besides conceptualizing and planning out the overall development of the app as a
 This [demo video][Demo] provides an overview of the overall gameplay and highlights the voice input.
 
 
-[Demo]: <https://studio.youtube.com/video/AGXOu3xjkyk/edit>
+[Demo]: <https://youtu.be/AGXOu3xjkyk>
 [AS]: <https://developer.android.com/studio>
 [FB]: <https://firebase.google.com/>
 [MAPI]: <https://developers.google.com/maps?hl=de>
